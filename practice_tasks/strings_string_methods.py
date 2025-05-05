@@ -1,13 +1,15 @@
-
+from variables_data_types import animals
 
 a = "escaped from the cage"
-b = "The zookeeper fed"
+b = "10 degrees celcius"
 c = "cage is dirty"
-d = "the lion"
+
+print(f"The Lion {animals["Lion"]["animal_name"]}" +" " + a)
+print(f"The  {animals["Snake"]["cage"]}" +" " + c)
+print(f"The temperature from {animals["Elephant"]["cage"]} cage decreased from {animals["Elephant"]["temperature"]} to " + b)
 
 
-x = d.capitalize()
-print(x + " " + a)
 
-y= b.swapcase()
-print(y + " " + d)
+
+
+
