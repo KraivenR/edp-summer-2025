@@ -15,3 +15,4 @@ animals = {
 humidity_sensor1 = Sensor(1, 'humidity', 'Lions 1')
 print(humidity_sensor1.location)
 
+    

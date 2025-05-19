@@ -11,5 +11,6 @@ Sensors.insert(3,"Survaillance Cameras")                                    #The
 print(Sensors)                                                              #append() has the same function but adds the item to the end of the list
 
 print(len(Sensors))                                                         #len() determines how many items are on the list
+
 print(f" The {Sensors[1]} has been triggered, the lion {animals["Lion"]["animal_name"]} has escaped")
 print(f" The {Sensors[2]} has detected a temperature drop in {animals["Elephant"]["cage"]} by 5 degrees celcius")
